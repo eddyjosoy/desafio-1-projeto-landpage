@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#menusuperior{
+    background-color: #303030;
+    color: white;
+    height: 475px;
+
+}
+
+#titulo-menu-superior{
+    padding-top: 206px;
+    padding-left: 62px;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2.5%;
+}
+
+#texto-menu-superior{
+    padding-top: 10px;
+    padding-left: 62px;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+}
+
+#numeros-informativos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: white;
+    height: 229px;
+}
+
+.container{
+    padding-top: 54px;
+    padding-left: 135px;
+    font-size: 40px;
+    line-height: 28px;
+}
+
+#empreendimentos{
+    display: flex;
+    font-size: 20px;
+}
+
+#anos{
+    display: flex;
+    font-size: 20px;
+}
+
+#metros{
+    display: flex;
+    font-size: 20px;
+}
+
+#experiencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+   
+}
+
+#texto-experiencia{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 210px;
+}
+
+#titulo-experiencia {
+    font-size: 40px;
+}
+
+#paragrafo-experiencia {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+#ilustracao{
+    width: 510px;
+    height: 605px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+#formulario{
+    margin-top: 80px;
+    background-color: #303030;
+    text-align: center;
+}
+
+#titulo-formulario{
+    color: #ffffff;
+    padding: 50px;
+    font-size: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    margin: 10px 0px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    background: #C07212;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: 10px 80px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
